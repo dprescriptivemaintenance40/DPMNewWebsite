@@ -1,0 +1,805 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>DPM</title>
+    <meta content="" name="description">
+
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400; 500;700&display=swap"
+      rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top">
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/logo.png" alt="">
+        </a>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link" href="about.html">About Us</a></li>
+            <li><a class="nav-link" href="service.html">Services</a></li>
+            <!-- <li class="has-child">
+              <a class="nav-link " href="" data-bs-toggle="modal" data-bs-target="#has-child">Product</a>
+              <div class="modal fade" id="has-child" tabindex="-1" aria-labelledby="has-child" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="sub-menu">
+                        <div class="sub-menu-content">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <div class="sub-m-title">
+                                <h4>Predict Modal</h4>
+                                <ul>
+                                  <li><a href="">Assets current condition-Real time<i
+                                        class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">Future Failure Forcast<i class="bi bi-download ml-1"></i></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="sub-m-title">
+                                <h4>Strategy Model</h4>
+                                <ul>
+                                  <li><a href="">FMEA<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">FMECA<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">FCA<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">MSR<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">RCM<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">PMO<i class="bi bi-download ml-1"></i></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="sub-m-title">
+                                <h4>Anaysis Model</h4>
+                                <ul>
+                                  <li><a href="">RCA<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">Criticality Assessment<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">HSECES<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">HAZOP/HAZID analysis<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">Bow Tie Diagram<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">QRA<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">RBI<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">SIL/IPF classification<i class="bi bi-download ml-1"></i></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="sub-m-title">
+                                <h4>Prescriptive Model</h4>
+                                <ul>
+                                  <li><a href="">JIT<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">Risk vs Availability mapping<i class="bi bi-download ml-1"></i></a>
+                                  </li>
+                                  <li><a href="">Live Library Database<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">Mist cost oprimized maintenance stretegy<i
+                                        class="bi bi-download ml-1"></i></a>
+                                  </li>
+                                  <li><a href="">RCM<i class="bi bi-download ml-1"></i></a></li>
+                                  <li><a href="">PMO<i class="bi bi-download ml-1"></i></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </li>
+            <li><a class="nav-link" href="blogs.html">Blog</a></li> -->
+            <li><a class="nav-link " href="contactus.html">Contact Us</a></li>
+          </ul>
+        </nav><!-- .navbar -->
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li class="whatsapp-btn">
+              <a class="pulsingButton" href=""  data-toggle="tooltip" title="We accept whatsapp only!"><span class="icon-bg-white"><img src="./assets/img/whatsapp.png" height="20"></span>+91 9011335781</a>
+            </li>
+            <li><a class="getstarted" href="https://portal.dpmaianalytics.com/">Portal Login</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+
+      </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero d-flex align-items-center">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex flex-column justify-content-center mt-5">
+            <h2 data-aos="fade-up" data-aos-delay="400" class="mb-3 d-block">DPM-Maintenance Game changer
+            </h2>
+            <h1 data-aos="fade-up">We make failure visible
+              and <span>prescribe right
+                maintenance right time</span></h1>
+
+            <div data-aos="fade-up" data-aos-delay="600">
+              <div class="text-center text-lg-start">
+                <a href="service.html"
+                  class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Get Started</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="recent-blog-posts" class="recent-blog-posts">
+
+        <div class="container" data-aos="fade-up">
+
+          <div class="row">
+
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img"><img src="assets/img/p-industry.jpg" class="img-fluid" alt=""></div>
+                <h3 class="post-title">Partnership with the Industry</h3>
+                <p class="text-white mb-4">Maintenance Solution Provider, aspire to be
+                  your growth engine and the lifeblood of the
+                  business economy to turn-around
+                  conventional Maintenance Practices</p>
+
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img"><img src="assets/img/ecosystem.jfif" class="img-fluid" alt=""></div>
+                <h3 class="post-title">The DPM Eco-
+                  System</h3>
+                <p class="text-white mb-4">Industry#4.0 era demands differently enabled maintenance team, a creative
+                  mindset and renewed strategies to rebuild vibrant &
+                  self reliant enterprises, for business sustenance. Apply DPM ecosystem, empower own resources.</p>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img"><img src="assets/img/bridge.jfif" class="img-fluid" alt=""></div>
+                <h3 class="post-title">Bridge Institution &
+                  Enterprise</h3>
+                <p class="text-white mb-4">DPM endeavors diligently to work together with Academics & Industries to aim
+                  “industry-ready” entry level engineers and
+                  enhance employability across entire industrial sector value chain. Skill sets are toned using DPM
+                  software.</p>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section><!-- End Recent Blog Posts Section -->
+
+      <!-- ======= Values Section ======= -->
+      <section id="values" class="values pt-0">
+
+        <div class="container" data-aos="fade-up">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <div class="section-intro mt-5 mb-5">
+                <h2 data-aos="fade-up" data-aos-delay="400">OUR WORKS
+                </h2>
+                <h1 data-aos="fade-up">We offer <span>one of the best Maintenance Practices</span> to make your dreams
+                  come true.</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row our-scope">
+
+            <div class="col-lg-3">
+              <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/machines/compressor.jpg" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Centrifugal Compressor
+                  </h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/machines/turbine.jpg" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Gas Turbine
+                  </h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/machines/pump.jpg" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Pump
+                  </h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/machines/pipeline.jpg" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Pipeline
+                  </h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/machines/motor.jpg" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Electric Motor
+                  </h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/machines/generator.png" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Electric Generator</h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/machines/engine.jpg" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Combustion Engine
+
+                  </h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/machines/logic-unit.png" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Control Logic Unit</h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/machines/detector.jpg" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Fire and Gas Detectors</h3>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 mt-4 mt-lg-0">
+              <div class="box" data-aos="fade-up" data-aos-delay="400">
+                <img src="assets/img/machines/exchangers.jpg" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Heat Exchangers</h3>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 mt-4 mt-lg-0">
+              <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <img src="assets/img/machines/sensors.jpg" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Process Sensors</h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-4 mt-lg-0">
+              <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <img src="assets/img/machines/turbo.jpg" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Turbo Expanders</h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-4 mt-lg-0">
+              <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <img src="assets/img/machines/valves.jpg" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Valves</h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-4 mt-lg-0">
+              <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <img src="assets/img/machines/vessels.png" class="img-fluid" alt="">
+                <div class="box-content">
+                  <h3>Vessels
+                  </h3>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section><!-- End Values Section -->
+
+      <section class="who-we-are">
+        <div class="container">
+          <div class="col-md-10">
+            <div class="big-heading">
+              <h2 data-aos="fade-up" data-aos-delay="400">WHO WE ARE?
+              </h2>
+              <h1 data-aos="fade-up">DPM AI Analytics, traces its roots back to 2013
+                when application of <span>machine learning in
+                  maintenance decision making process</span> was
+                conceptualized.</h1>
+              <p>
+                Over next <strong>7 years</strong> we evolved with time, stayed relevant, made decisive bold choices and
+                moved on. It was September 2020
+                we made first presentation at <strong>ADIPEC</strong>, an International Industrial conference where
+                application of AI to reduce
+                maintenance cost was well received. We adapted, innovated and offered a unique software product “DPM”,
+                where we make
+                failure visible and prescribe right maintenance right time. We are proud to be the maintenance game
+                changer.
+              </p>
+            </div>
+            <div class="text-center text-lg-start">
+              <a href="about.html"
+                class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span class="d-inline-block mr-1">Learn More</span>
+                &nbsp;&nbsp;<i class="bi bi-arrow-right ml-2 d-inline-block"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="maintainance">
+        <div class="container">
+          <div class="row mb-5">
+            <header class="section-intro text-left w-75" style="text-align: center; margin: auto;">
+              <h1>Why <span>choose us</span></h1>
+            </header>
+          </div>
+          <div class="row mt-5 w-75 m-auto">
+            <div class="col-md-5 mt-4">
+              <div class="why-us">
+                <div class="d-flex align-items-center">
+                  <h5>DPM AI Analytics, Industrial 4th Gen Revolution</h5>
+                  <div class="img-div">
+                    <img src="./assets/img/s11.jfif" />
+                  </div>
+                </div>
+
+              </div>
+              <p class="text-white">
+                Welcome to a new philosophy, “DPM – Dynamic Prescriptive
+                Maintenance”. Maintenance excellence is no longer an option,
+                now it is a must.
+              </p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5 mt-4">
+              <div class="why-us">
+                <div class="d-flex align-items-center">
+                  <h5>Make Maintainance Simple</h5>
+                  <div class="img-div">
+                    <img src="./assets/img/s12.jfif" />
+                  </div>
+                </div>
+
+              </div>
+              <p class="text-white">
+                DPM-2030 vision statement DPM AI-based software & hardware architect shall facilitate smart machineries
+                to self-perform
+                PM routines, and self-prescribe corrective tasks.
+              </p>
+            </div>
+          </div>
+          <div class="row mt-5 w-75 m-auto">
+            <div class="col-md-5 mt-4">
+              <div class="why-us">
+                <div class="d-flex align-items-center">
+                  <h5>Conceptualizes Machines Like Living Body</h5>
+                  <div class="img-div">
+                    <img src="./assets/img/s13.jfif" />
+                  </div>
+                </div>
+
+              </div>
+              <p class="text-white">
+                Recognize subtle changes, reorient strategies continuously, and reprogram tasks for sustenance, as
+                demand varies in
+                real-time.
+              </p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5 mt-4">
+              <div class="why-us">
+                <div class="d-flex align-items-center">
+                  <h5>Business Growth</h5>
+                  <div class="img-div">
+                    <img src="./assets/img/s14.jfif" />
+                  </div>
+                </div>
+
+              </div>
+              <p class="text-white">
+                In the digital era, service is the king. Maintenance dominates service sector. Therefore business must
+                accept
+                maintenance as key decision maker for ensuring profitability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="demos">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-md-12">
+              <header class="section-header text-center w-75 m-auto" style="text-align: left; margin-top: 0px">
+                <p class="">Request A Demo</p>
+
+              </header>
+            </div>
+            <div class="col-md-12">
+              <div class="demos-slider swiper-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="swiper-wrapper">
+
+
+                  <!-- <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    <div class="demo-item">
+                      <img src="./assets/img/demo-thumbnail/demo-dash.jpg">
+                    </div>
+                  </div> -->
+                  <!-- End testimonial item -->
+                  <!-- Demo One Modal -->
+                  <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    <div class="demo-item">
+                      <img src="./assets/img/demo-thumbnail/demo1.jpg">
+                    </div>
+                  </div>
+                  <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    <div class="demo-item">
+                      <div class="demo-item">
+                        <img src="./assets/img/demo-thumbnail/demo2.jpg">
+                      </div>
+                    </div>
+                  </div><!-- End testimonial item -->
+
+                  <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                    <div class="demo-item">
+                      <div class="demo-item">
+                        <img src="./assets/img/demo-thumbnail/demo34.jpg">
+                      </div>
+                    </div>
+                  </div><!-- End testimonial item -->
+
+                  <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                    <div class="demo-item">
+                      <div class="demo-item">
+                        <img src="./assets/img/demo-thumbnail/demo5.jpg">
+                      </div>
+                    </div>
+                  </div><!-- End testimonial item -->
+
+                  <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                    <div class="demo-item">
+                      <div class="demo-item">
+                        <img src="./assets/img/demo-thumbnail/demo6.jpg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                    <div class="demo-item">
+                      <div class="demo-item">
+                        <img src="./assets/img/demo-thumbnail/demo7.jpg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                    <div class="demo-item">
+                      <div class="demo-item">
+                        <img src="./assets/img/demo-thumbnail/demo8.jpg">
+                      </div>
+                    </div>
+                  </div><!-- End testimonial item -->
+
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </section><!-- End demos Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+      <!-- <div class="footer-newsletter">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6 text-center">
+              <h1 class="text-white mb-0">Subscribe to Our Newsletter</h1>
+            </div>
+            <div class="col-lg-6">
+              <form action="" method="post">
+                <input type="email" name="email"><input type="submit" value="Subscribe">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-12 footer-info">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo.png" alt="">
+              </a>
+              <p>DPM is AI backed decision-process, to transform the conventional maintenance management practices using
+                [Data->
+                Pattern-> Labeling-> Predict-> Prescribe] structured framework.</p>
+              <div class="social-links mt-3">
+                <!-- <a href="" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a> -->
+                <a href="https://linkedin.com/in/d-p-m-ai-analytics-08bb101b8" target="_blank" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-lg-3 col-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="about.html">About us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="service.html">Services</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 footer-contact text-center text-md-start">
+              <h4>Contact Us</h4>
+              <strong>D.P.M AI ANALYTICS LLP</strong>
+              <p>
+                3D4,3rd floor, D-Wing, Gundecha Onclave,Kherani RD Next to Post Office, Sakinaka, Andheri (East) Mumbai,
+                Maharashtra
+                400072 India<br>
+                <strong>Phone:</strong> +91-22-49786776<br>
+                <strong>Email:</strong> info@dpmaianalytics.com<br>
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <!-- <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 800px;">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe style="height: 300px; width: 100%;" src="https://www.youtube.com/embed/b78sHICN_YM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- Demo one modal End -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 800px;">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe style="height: 300px; width: 100%;" src="https://www.youtube.com/embed/b78sHICN_YM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Demo one modal End -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 800px;">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe style="height: 300px; width: 100%;" src="https://www.youtube.com/embed/i900L0uk-Ts"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Demo one modal End -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 800px;">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe style="height: 300px; width: 100%;" src="https://www.youtube.com/embed/oqDBIiZ06Ao"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Demo one modal End -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 800px;">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe style="height: 300px; width: 100%;" src="https://www.youtube.com/embed/SY-Ryt2h4Xs"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Demo one modal End -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 800px;">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe style="height: 300px; width: 100%;" src="https://www.youtube.com/embed/WEHQCpPaiAQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Demo one modal End -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 800px;">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe style="height: 300px; width: 100%;" src="https://www.youtube.com/embed/9e14MFiv74s"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Demo one modal End -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 800px;">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe style="height: 300px; width: 100%;" src="https://www.youtube.com/embed/IwIFhH1RpaQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Demo one modal End -->
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>D.P.M AI ANALYTICS LLP</span></strong>. All Rights Reserved
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+      <script>
+        $(document).ready(function () {
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+      </script>
+  </body>
+
+</html>
